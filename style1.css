@@ -187,3 +187,10 @@ main{
     color: white;
     padding: 0 15px 0 15px;
 }
+.social-link-part{
+    padding-top: 40px;
+    text-align: center;
+}
+.social-link-part a{
+    padding: 20px;
+}
