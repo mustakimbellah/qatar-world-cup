@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 main{
     display: flex;
@@ -27,7 +28,7 @@ main{
 }
 
 .first-part-first h1{
-    font-size: 50px;
+    font-size: 40px;
 
 }
 .first-part-first p{
@@ -103,9 +104,10 @@ main{
 
 .middle-part-second-box{
     width: 200px;
-    height: 250px;
+    height: 320px;
     background-color: rgb(248 248 248);
     border-radius: 10px;
+    background-color: whitesmoke;
 }
 
 .middle-part-second-box-image img{
