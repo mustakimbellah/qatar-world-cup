@@ -1,15 +1,19 @@
 /* common-part */
-
-
-
-/* first-part */
-
+body{
+    margin: 0;
+    padding: 0;
+}
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
+
+
+/* first-part */
+
+
 .first-section{
     background-color: rgba(32, 32, 78, 0.96);
     width: 900px;
@@ -43,15 +47,15 @@ main{
 
 
 .middle-part-first-section{
+    display: flex;
     background-color: black;
     padding: 20px;
     border-radius: 5px;
-    display: flex;
 }
 
 .middle-part-first-div{
-    margin-top: 100px;
     display: flex;
+    margin-top: 100px;
     justify-content: space-between;
     margin-bottom: 100px;
     
@@ -88,10 +92,7 @@ main{
     transition: .5s;
 
 }
-/* .middle-part-btn2 :hover{
-    background-color: #bc2525;
-    cursor: pointer;
-} */
+
 
 .middle-part-second-div1{
     display: grid;
@@ -148,8 +149,6 @@ main{
 .middle-icon{
     margin-left: 10px;
 }
-
-/* last part */
 
 /* footer-part */
 
